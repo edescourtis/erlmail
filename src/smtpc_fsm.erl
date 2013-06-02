@@ -457,5 +457,5 @@ auth_plain(User, Password, Socket) ->
             {error, Err}
     end.
 
-auth_login(User, Password, Socket) ->
+auth_login(_User, _Password, _Socket) ->
     to_do.
